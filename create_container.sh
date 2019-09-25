@@ -24,7 +24,7 @@ function cleanup() {
 trap cleanup EXIT
 TMP=`mktemp -d`
 pushd $TMP >/dev/null
-wget -q https://raw.githubusercontent.com/kueblc/tuya-convert/tree/new-api/{install_tuya-convert,login}.sh
+wget -q https://raw.githubusercontent.com/sirredz/proxmox-tuya-convert-2.0-container/dependency-refactor/create_container.sh)" -s local-lvm/{install_tuya-convert,login}.sh
 
 # Check for dependencies
 which iw >/dev/null
